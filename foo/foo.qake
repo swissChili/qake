@@ -1,0 +1,18 @@
+lib "foo" {
+	lang = C,
+	sources = {
+		"foo.c"
+	}
+}
+
+--exe "foo" {
+--	lang = C,
+--	sources = {
+--		"foo.c"
+--	},
+--	libs = {
+--		libs.foo
+--	}
+--}
+
+return generate()
